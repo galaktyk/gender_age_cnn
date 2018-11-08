@@ -11,7 +11,7 @@ def create_anns_csv():
     #folder  |  jpeg  |  id  |  age  |  gender  
     anns = np.loadtxt('anns/fold_frontal_4_data.txt',dtype=str, usecols = (0,1,2,3,4),delimiter='\t')
 
-    f = open('anns/'+'anns_full.csv',  mode='a',newline='')
+    f = open('anns/'+'train_anns.csv',  mode='a',newline='')
     writer=csv.writer(f)
 
 
