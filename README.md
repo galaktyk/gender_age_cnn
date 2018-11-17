@@ -3,7 +3,7 @@ Gender & Age classification with VGG16
 
 ## Usage 
 Train, Val : use the nootbook file  
-Webcam test use : use run_webcam.py
+Webcam test : use run_webcam.py
 
 ## Dataset
 [Adiencedb Face](https://talhassner.github.io/home/projects/Adience/Adience-data.html)  
